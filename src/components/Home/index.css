@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.home-light-mode-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-light-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-light {
+  height: 200px;
+  width: 180px;
+}
+
+.home-light-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.home-dark-mode-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-dark-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-dark-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.home-dark {
+  height: 200px;
+  width: 180px;
+}
