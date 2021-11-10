@@ -61,7 +61,12 @@ const Navbar = () => (
                 <li className="nav-item-heading">About</li>
               </Link>
             </div>
-            <button type="button" testid="theme" className="theme-button">
+            <button
+              type="button"
+              testid="theme"
+              className="theme-button"
+              onClick={onClickToggleTheme}
+            >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/dark-theme-img.png"
                 alt="theme"
