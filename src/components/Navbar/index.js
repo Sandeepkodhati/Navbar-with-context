@@ -29,12 +29,16 @@ const Navbar = () => (
                 <li className="dark-mode-heading">About</li>
               </Link>
             </div>
-            <button type="button" testid="theme" className="theme-button">
+            <button
+              type="button"
+              testid="theme"
+              className="theme-button"
+              onClick={onClickToggleTheme}
+            >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/light-theme-img.png"
                 alt="theme"
                 className="light-theme"
-                onClick={onClickToggleTheme}
               />
             </button>
           </ul>
